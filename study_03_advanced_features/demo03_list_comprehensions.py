@@ -90,5 +90,6 @@ print([s.lower() for s in list2 if isinstance(s, str)])
 # SyntaxError: invalid syntax
 # print([n for n in range(1, 11) if n % 2 == 0 else 0])
 
+# for前面有if 则必须带有 else
 # [-1, 2, -3, 4, -5, 6, -7, 8, -9, 10]
 print([n if n % 2 == 0 else -n for n in range(1, 11)])
