@@ -1,2 +1,2 @@
 # hello-python
-the basic python language study notes
+personal python language study notes
